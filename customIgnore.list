@@ -1,0 +1,78 @@
+// Tweaks below will be ignored
+
+// Disables site specific zoom :( (browser.zoom.siteSpecific )
+"privacy.resistFingerprinting"
+
+// Disables Web Audio API
+"dom.webaudio.enabled"
+
+// Disables WebAssembly
+// "javascript.options.wasm"
+
+// Do not submit invalid URIs entered in the address bar to the default search engine
+"keyword.enabled"
+
+// Don't try to guess domain names when entering an invalid domain name in URL bar
+"browser.fixup.alternate.enabled"
+
+// Enforce Mixed Active Content Blocking
+"security.mixed_content.block_active_content"
+
+// Disable search suggestions in the search bar
+"browser.search.suggest.enabled"
+
+// Disable "Show search suggestions in location bar results
+"browser.urlbar.suggest.searches"
+"browser.urlbar.suggest.history"
+
+// Never check updates for search engines
+"browser.search.update"
+
+// Send a referer header with the target URI as the source
+"network.http.referer.spoofSource"
+
+// Accept Only 1st Party Cookies
+"network.cookie.cookieBehavior"
+
+// Don't remember browsing history
+"places.history.enabled"
+
+// Disable download history
+"browser.download.manager.retention"
+
+// Disable form autofill, don't save information entered in web page forms and the Search Bar
+"browser.formfill.enable"
+
+// Delete Search and Form History
+"browser.formfill.expire_days"
+
+// Clear history when Firefox closes
+"privacy.sanitize.sanitizeOnShutdown"
+"privacy.clearOnShutdown.cookies"
+"privacy.clearOnShutdown.downloads"
+"privacy.clearOnShutdown.formdata"
+"privacy.clearOnShutdown.history"
+"privacy.clearOnShutdown.passwords"
+"privacy.clearOnShutdown.openWindows"
+// "privacy.clearOnShutdown.offlineApps"
+// "privacy.clearOnShutdown.sessions"
+
+// Delete Search and Form History
+"browser.formfill.expire_days"
+
+// Always ask the user where to download
+"browser.download.useDownloadDir"
+
+// Disable the "new tab page" feature and show a blank tab instead
+"browser.newtabpage.enabled"
+"browser.newtab.url"
+
+// Disable inline autocomplete in URL bar
+"browser.urlbar.autoFill"
+"browser.urlbar.autoFill.typed"
+
+// Disable CSS :visited selectors
+"layout.css.visited_links_enabled"
+
+// Lock the password storage every 1 minutes (default: 30)
+"security.password_lifetime"

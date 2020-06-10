@@ -22,3 +22,7 @@ user_pref("toolkit.telemetry.archive.enabled", false);
 // Enable Auto Update (Don't rely on package managers)
 user_pref("app.update.auto", true);
 
+// Offer Audio file downloads intead of playing them
+user_pref("media.play-stand-alone", false)
+
+
